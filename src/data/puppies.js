@@ -45,7 +45,7 @@ export const puppies = [
         description: "El perro más cariñoso e inteligente. Es un gran compañero para las personas que buscan un perro que les quiera incondicionalmente y admeás un gran guardian.",
         photo: "https://cdn.pixabay.com/photo/2015/11/12/20/32/st-bernard-1040957_1280.jpg",
         breed: "San Bernardo",
-        color: "success"
+        color: "primary"
     }
 ];
 
