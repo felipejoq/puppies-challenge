@@ -8,6 +8,11 @@ donde se señalan los requisitos que debe tener el proyecto.
 
 👉 [Live demo](https://felipejoq.github.io/puppies-challenge) 🐶
 
+### 📸 Vista Previa:
+
+![vista previa](https://github.com/felipejoq/puppies-challenge/blob/main/preview.png?raw=true)
+
+
 ### 🚀 Pasos para desarrollo:
 
 1. Clonar el repositorio
@@ -38,6 +43,3 @@ npm run dev
 yarn run dev
 ```
 
-### 📸 Vista Previa:
-
-![vista previa](https://github.com/felipejoq/puppies-challenge/blob/main/preview.png?raw=true)
