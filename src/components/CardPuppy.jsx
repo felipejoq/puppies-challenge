@@ -10,9 +10,7 @@ const CardPuppy = ({image, puppyName, puppyDescription, breed, colorTag}) => {
                 <Card.Text>
                     {puppyDescription}
                 </Card.Text>
-                <Card.Text>
-                    <Tag text={breed} color={colorTag}/>
-                </Card.Text>
+                <Tag text={breed} color={colorTag}/>
             </Card.Body>
         </Card>
     );
