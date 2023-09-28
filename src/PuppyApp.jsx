@@ -10,7 +10,7 @@ const PuppyApp = () => {
 
     return (
         <Container>
-            <Header title={'🐶 Adopt a puppy!'}/>
+            <Header title={'🐶 Adopta un perrito!'}/>
             <Content puppies={puppies}/>
             <Footer/>
         </Container>
