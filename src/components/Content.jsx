@@ -5,14 +5,8 @@ const Content = ({puppies}) => {
     return (
         <Row className="text-center">
             {
-                puppies.map(({
-                                 id,
-                                 photo,
-                                 name,
-                                 description,
-                                 breed,
-                                 color
-                             }) => (
+                puppies.map(({ id, photo, name, description, breed,  color }) => (
+
                     <Col className="my-4 d-flex justify-content-center" key={id}>
                         <CardPuppy
                             image={photo}
@@ -22,6 +16,7 @@ const Content = ({puppies}) => {
                             colorTag={color}
                         />
                     </Col>
+
                 ))
             }
         </Row>
