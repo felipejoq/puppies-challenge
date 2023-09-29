@@ -48,5 +48,3 @@ export const puppies = [
         color: "primary"
     }
 ];
-
-export default puppies;

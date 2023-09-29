@@ -1,4 +1,4 @@
-const Footer = () => {
+export const Footer = () => {
     return (
         <footer className="my-4 text-center">
             <p>🐶 ¡Adóptame!</p>
@@ -14,5 +14,3 @@ const Footer = () => {
         </footer>
     );
 };
-
-export default Footer;

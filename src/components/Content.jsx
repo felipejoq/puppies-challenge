@@ -1,7 +1,7 @@
 import {Col, Row} from "react-bootstrap";
-import CardPuppy from "./CardPuppy.jsx";
+import {CardPuppy} from "./CardPuppy.jsx";
 
-const Content = ({puppies}) => {
+export const Content = ({puppies}) => {
     return (
         <Row className="text-center">
             {
@@ -22,5 +22,3 @@ const Content = ({puppies}) => {
         </Row>
     );
 };
-
-export default Content;

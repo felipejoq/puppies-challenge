@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
-import Tag from "./Tag.jsx";
+import {Tag} from "./Tag.jsx";
 
-const CardPuppy = ({image, puppyName, puppyDescription, breed, colorTag}) => {
+export const CardPuppy = ({image, puppyName, puppyDescription, breed, colorTag}) => {
     return (
         <Card className='card-puppy'>
             <Card.Img variant="top" src={image}/>
@@ -15,5 +15,3 @@ const CardPuppy = ({image, puppyName, puppyDescription, breed, colorTag}) => {
         </Card>
     );
 }
-
-export default CardPuppy;

@@ -1,4 +1,4 @@
-import puppies from "../data/puppies.js";
+import {puppies} from "../data/puppies.js";
 
 export const getAllPuppies = () => {
     return puppies;
